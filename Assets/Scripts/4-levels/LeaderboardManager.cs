@@ -22,7 +22,7 @@ public class LeaderboardManager : MonoBehaviour
         for (int i = 0; i < maxEntries; i++)
         {
             scores[i] = PlayerPrefs.GetInt($"LB_Score_{i}", 0);
-            names[i]  = PlayerPrefs.GetString($"LB_Name_{i}", "---");
+            names[i] = PlayerPrefs.GetString($"LB_Name_{i}", "---");
         }
 
         // 3. Insert last score into the top 3 if it's high enough
@@ -34,11 +34,11 @@ public class LeaderboardManager : MonoBehaviour
                 for (int j = maxEntries - 1; j > i; j--)
                 {
                     scores[j] = scores[j - 1];
-                    names[j]  = names[j - 1];
+                    names[j] = names[j - 1];
                 }
 
                 scores[i] = lastScore;
-                names[i]  = lastName;
+                names[i] = lastName;
                 break;
             }
         }

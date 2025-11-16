@@ -3,7 +3,7 @@ using UnityEngine;
 public class ShowLeaderboard : MonoBehaviour
 {
     public GameObject leaderboardPanel;
-    public GameObject gameOverPanel;   
+    public GameObject gameOverPanel;
     public float delay = 3f;
 
     void Start()

@@ -17,7 +17,7 @@ public class HeartSpawner : MonoBehaviour
     {
         // spawn heart ONLY if player's health < max
         PlayerHealth player = FindFirstObjectByType<PlayerHealth>();
-       
+
         float randomX = Random.Range(minX, maxX);
         Vector3 pos = new Vector3(randomX, spawnY, 0);
 

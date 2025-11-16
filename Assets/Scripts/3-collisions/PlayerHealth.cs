@@ -67,7 +67,7 @@ public class PlayerHealth : MonoBehaviour
         for (int i = 0; i < heartImages.Length; i++)
         {
             if (i < currentHealth)
-                heartImages[i].sprite = fullHeartSprite; 
+                heartImages[i].sprite = fullHeartSprite;
             else
                 heartImages[i].sprite = emptyHeartSprite;
         }

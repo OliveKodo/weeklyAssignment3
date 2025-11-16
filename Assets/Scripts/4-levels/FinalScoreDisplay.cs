@@ -9,7 +9,7 @@ public class FinalScoreDisplay : MonoBehaviour
     {
         // Load the saved score
         int finalScore = PlayerPrefs.GetInt("Finalscore", 0);
-        
+
         // Display it
         if (scoreText != null)
         {
