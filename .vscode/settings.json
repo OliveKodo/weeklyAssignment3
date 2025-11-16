@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "02-prefabs-triggers-master.sln"
+    "dotnet.defaultSolution": "WeeklyAssignmet3.sln"
 }

@@ -12,7 +12,7 @@ public class LeaderboardManager : MonoBehaviour
     void Start()
     {
         // 1. Load last run result (score + name)
-        int lastScore = PlayerPrefs.GetInt("Finalscore", 0);   // שים לב לכתיב המפתח!
+        int lastScore = PlayerPrefs.GetInt("FinalScore", 0);   // שים לב לכתיב המפתח!
         string lastName = PlayerPrefs.GetString("PlayerName", "Player");
 
         // 2. Load existing leaderboard from PlayerPrefs
