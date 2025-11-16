@@ -7,7 +7,7 @@ A fast-paced 2D space shooter where you dodge enemies, shoot lasers, collect mis
 ## 🎮 Play the Game
 
 - **Play in your browser / download on itch.io**  
-  👉 [Play on itch.io](https://YOUR-ITCH-PROJECT-LINK-HERE)
+  👉 [Play on itch.io]([https://YOUR-ITCH-PROJECT-LINK-HERE](https://alpha444rt.itch.io/space-war))
 
 - **Source code on GitHub**  
   👉 [GitHub Repository](https://github.com/OliveKodo/weeklyAssignment3)
