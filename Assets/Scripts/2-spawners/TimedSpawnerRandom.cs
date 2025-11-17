@@ -10,13 +10,16 @@ public class TimedSpawnerRandom : MonoBehaviour
     [SerializeField] Mover prefabToSpawn;
     [SerializeField] Vector3 velocityOfSpawnedObject;
 
-    [Tooltip("Minimum time between consecutive spawns, in seconds")] [SerializeField]
+    [Tooltip("Minimum time between consecutive spawns, in seconds")]
+    [SerializeField]
     float minTimeBetweenSpawns = 0.2f;
 
-    [Tooltip("Maximum time between consecutive spawns, in seconds")] [SerializeField]
+    [Tooltip("Maximum time between consecutive spawns, in seconds")]
+    [SerializeField]
     float maxTimeBetweenSpawns = 1.0f;
 
-    [Tooltip("Maximum distance in X between spawner and spawned objects, in meters")] [SerializeField]
+    [Tooltip("Maximum distance in X between spawner and spawned objects, in meters")]
+    [SerializeField]
     float maxXDistance = 1.5f;
 
     [SerializeField] Transform parentOfAllInstances;
